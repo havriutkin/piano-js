@@ -29,8 +29,7 @@ button {
 }
 
 button:active {
-    margin-left: 4px;
-    margin-top: 4px;
+    transform: scale(0.95) translateY(3px); /* Scale down and move down */
     box-shadow: 1px 1px 5px black;
 }
 
