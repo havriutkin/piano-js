@@ -34,14 +34,14 @@ button:active {
 }
 
 .key {
-    height: 200px;
-    width: 60px;
+    height: 20vh;
+    width: 4vw;
     background-color: white;
 }
 
 .key-black{
-    width: 60px;
-    height: 100px;
+    width: 4vw;
+    height: 10vh;
     z-index: 1;
     background-color: #141c3a;
 }
@@ -105,4 +105,37 @@ button:active {
 .B {
     grid-row: 1 / span 4;
     grid-column: 13 / span 2;
+}
+
+/* Responsive */
+@media only screen and (max-width: 820px){
+    #o-4 {
+        display: none;
+    }
+
+    .key {
+        width: 6vw;
+    }
+    
+    .key-black{
+        width: 6vw;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    #o-4 {
+        display: none;
+    }
+
+    #o-2 {
+        display: none;
+    }
+
+    .key {
+        width: 12vw;
+    }
+    
+    .key-black{
+        width: 12vw;
+    }
 }
